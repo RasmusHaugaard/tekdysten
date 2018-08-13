@@ -1,0 +1,47 @@
+.App {
+  height: 100%;
+  text-align: center;
+  background: linear-gradient(70deg, #f98222, #ff9800);
+  color: white;
+}
+
+.App-header {
+  padding: 3rem 0 1.5rem 0;
+  background: white;
+  color: darkorange;
+  overflow: hidden;
+}
+
+.App-title {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  transform: skewX(-15deg);
+}
+
+.App-title-span {
+  border-style: solid;
+  border-width: 2px;
+  padding: 0 .5rem;
+}
+
+.App-place, .App-time {
+  font-size: 1rem;
+  margin-top: 0;
+  line-height: 1.4rem;
+  margin-bottom: 0;
+}
+.App-place {
+  font-size: 1.2rem;
+  margin-top: .2rem;
+  font-style: italic;
+}
+
+.App-content {
+  /* text-align: left; */
+  margin: 1rem;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
