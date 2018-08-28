@@ -1,0 +1,19 @@
+.Footer {
+  position: absolute;
+  width: 100%;
+  height: 3.5rem;
+  overflow: hidden;
+  bottom: 0;
+  background: linear-gradient(-10deg, hsl(24, 100%, 60%) 20%, hsl(21, 100%, 60%) 80%);
+  transition: bottom .3s;
+}
+
+.Footer.hide {
+  bottom: -3.5rem;
+}
+
+.Logout {
+  position: absolute!important;
+  bottom: .75rem;
+  right: .6rem;
+}

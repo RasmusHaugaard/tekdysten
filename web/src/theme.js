@@ -7,22 +7,19 @@ const theme = createMuiTheme({
   },
   palette: {
     primary: orange,
+    text: {
+      primary: "rgba(255, 255, 255, 0.95)",
+      secondary: "rgba(255, 255, 255, 0.75)",
+      disabled: "rgba(255, 255, 255, 0.38)",
+      hint: "rgba(255, 255, 255, 0.38)",
+    },
+    background: {
+      paper: "#ff8236",
+      default: "#ff8236",
+    }
   },
   overrides: {
-    // Name of the component ⚛️ / style sheet
-    MuiButton: {
-      // Name of the rule
-      root: {
-        // Some CSS
-        background: '#ff6f31',
-        borderRadius: 3,
-        border: 1,
-        borderStyle: 'solid',
-        color: 'white',
-        padding: '0 .5rem',
-        boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
-      },
-    },
+
   },
 });
 

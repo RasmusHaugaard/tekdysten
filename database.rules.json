@@ -1,6 +1,12 @@
 {
   "rules": {
     ".read": true,
-    ".write": true
+    ".write": true,
+    "users": {
+      ".read": true,
+      "$user": {
+        "study": {".write": "$root.a2u(auth.uid) === $user"}
+      }
+    }
   }
 }
